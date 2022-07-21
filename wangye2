@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>label标签文本域</title>
+</head>
+<body>
+
+   <p> <label for="teft">用户名：</label><input  type="text" id="teft"></p>
+    <!--性别选项-->
+   <h4>姓名：
+    <input type="radio" id="nan" name="sex"><label for="nan">男</label>
+    <input type="radio" id="nv"name="sex" ><label for="nv">女</label></h4> 
+    <!--select下拉表单元素-->
+    籍贯:
+    <h4><select>
+       <option>江西</option>
+       <option>广东</option>
+       <option>浙江</option>
+       <option>北京</option>
+       <option>天津</option>
+    </select></h4>
+    <!--textarea文本域表单元素背form表单域包裹在里面-->
+    <form>
+        今日反馈：
+        <textarea>
+           反馈文本 :
+        </textarea>
+    </form>
+</body>
+</html>
